@@ -38,6 +38,12 @@
                 <li {% if page.sectionid=='collections' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
                     <a class="nav-link" href='{{ "/collections" | prepend: site.baseurl }}'>Collections</a>
                 </li>
+                <li class="nav-item">
+                    <div id="search-container" class="search-container">
+                        <input type="text" id="search-input" class="form-control search-input" placeholder="Search..." aria-label="Search">
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+                </li>
             </ul>
         </div>
 
