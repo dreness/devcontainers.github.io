@@ -26,6 +26,7 @@ exclude:
   - .gitignore
   - README.md
   - resources
+  - SEARCH_SETUP.md
 
 timezone: Europe/Zurich
 
